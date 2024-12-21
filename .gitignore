@@ -1,4 +1,3 @@
-# Ignorar archivo de usuario con credenciales sensibles
 src/user.ts
 node_modules/
 html_output/
