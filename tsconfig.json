@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                 // Mantener el objetivo como es2016
+    "module": "commonjs",               // Mantener el módulo como commonjs
+    "strict": true,                     // Activar las verificaciones estrictas de tipos
+    "esModuleInterop": true,            // Permitir la interoperabilidad con módulos ES
+    "skipLibCheck": true,               // Saltar la verificación de bibliotecas
+    "forceConsistentCasingInFileNames": true // Forzar el uso consistente de mayúsculas/minúsculas
+  }
+}
