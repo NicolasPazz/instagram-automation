@@ -6,8 +6,8 @@ import fs from "fs";
 
 async function setupBrowser(): Promise<BrowserContext> {
   const browser = await chromium.launch({
-    headless: false, // Para que el navegador sea visible
-    args: ["--start-maximized"], // Argumento para abrir el navegador maximizado
+    headless: false,                // Para que el navegador sea visible
+    args: ["--start-maximized"],    // Argumento para abrir el navegador maximizado
   });
 
   // Verificar si existe el archivo de almacenamiento de cookies
